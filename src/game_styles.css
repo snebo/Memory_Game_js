@@ -41,7 +41,7 @@ body {
 }
 
 .memory_class :active {
-    transform: scale(.97);
+    transform: scale(.95);
     transition: transform .2s;
 }
 
@@ -67,5 +67,33 @@ body {
 }
 
 .back_face {
-    background: skyblue
+    /* background: rgb(206, 181, 42) */
+    background-image: url(../img/card.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* ..........smaller screen ...............*/
+@media only screen and (max-width: 600px) {
+
+    .memory_game {
+        width: 450px;
+        height: 560px;
+    }
+
+    .memory_class {
+        margin: 2px;
+    }
+
+    .back_face {
+        border-radius: 4px;
+        background-size: 100%;
+    }
+
+    .front_face {
+        transform: scale(1.2);
+    }
+
 }
