@@ -1,5 +1,3 @@
-html {}
-
 * {
     padding: 0;
     margin: 0;
@@ -7,14 +5,21 @@ html {}
 }
 
 body {
-    background-image: url("/img/Bk.jpg");
+    /* background-image: url("/img/Bk.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     height: 100vh;
 
     /* background-color: blue; */
     display: flex;
+}
+
+.bkg {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+
 }
 
 .memory_game {
