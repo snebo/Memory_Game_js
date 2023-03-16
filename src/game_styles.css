@@ -78,13 +78,18 @@ body {
 /* ..........smaller screen ...............*/
 @media only screen and (max-width: 600px) {
 
+    .bkg {
+        background-size: cover;
+    }
+
     .memory_game {
         width: 450px;
-        height: 560px;
+        height: 450px;
     }
 
     .memory_class {
-        margin: 2px;
+        padding: 10px;
+        margin: 3px;
     }
 
     .back_face {
