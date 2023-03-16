@@ -5,10 +5,7 @@
 }
 
 body {
-    /* background-image: url("/img/Bk.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+
     height: 100vh;
 
     /* background-color: blue; */
@@ -16,9 +13,13 @@ body {
 }
 
 .bkg {
-    height: 100vh;
-    width: 100vw;
     position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("/img/Bk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
 }
 
